@@ -34,6 +34,7 @@ public class SortMembersServlet extends HttpServlet {
         dispatcher.forward(request, response);
     }
 
+    //reading part
     private List<Member> readMembersFromFile(String filepath) {
         List<Member> list = new ArrayList<>();
         try (BufferedReader br = new BufferedReader(new FileReader(filepath))) {

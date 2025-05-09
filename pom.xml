@@ -23,12 +23,7 @@
         </dependency>
 
 
-        <dependency>
-
-
-        </dependency>
-
-        <dependency>
+               <dependency>
             <groupId>org.openjfx</groupId>
             <artifactId>javafx-fxml</artifactId>
             <version>22.0.1</version>

@@ -13,6 +13,7 @@ public class Member {
         return name;
     }
 
+
     public String getRenewalDate() {
         return renewalDate;
     }
