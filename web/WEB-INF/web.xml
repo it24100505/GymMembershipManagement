@@ -1,6 +1,47 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<web-app xmlns="https://jakarta.ee/xml/ns/jakartaee"
+<web-app xmlns="http://java.sun.com/xml/ns/javaee"
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-         xsi:schemaLocation="https://jakarta.ee/xml/ns/jakartaee https://jakarta.ee/xml/ns/jakartaee/web-app_6_0.xsd"
-         version="6.0">
+         xsi:schemaLocation="http://java.sun.com/xml/ns/javaee
+         http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd"
+         version="3.0">
+
+<!--    <servlet>-->
+<!--        <servlet-name>ViewMembersServlet</servlet-name>-->
+<!--        <servlet-class>com.gym.ViewMembersServlet</servlet-class>-->
+<!--    </servlet>-->
+<!--    <servlet-mapping>-->
+<!--        <servlet-name>ViewMembersServlet</servlet-name>-->
+<!--        <url-pattern>/members</url-pattern>-->
+<!--    </servlet-mapping>-->
+
+<!--    <servlet>-->
+<!--        <servlet-name>AddMemberServlet</servlet-name>-->
+<!--        <servlet-class>com.gym.AddMemberServlet</servlet-class>-->
+<!--    </servlet>-->
+<!--    <servlet-mapping>-->
+<!--        <servlet-name>AddMemberServlet</servlet-name>-->
+<!--        <url-pattern>/add</url-pattern>-->
+<!--    </servlet-mapping>-->
+
+<!--    <servlet>-->
+<!--        <servlet-name>EditMemberServlet</servlet-name>-->
+<!--        <servlet-class>com.gym.EditMemberServlet</servlet-class>-->
+<!--    </servlet>-->
+<!--    <servlet-mapping>-->
+<!--        <servlet-name>EditMemberServlet</servlet-name>-->
+<!--        <url-pattern>/edit</url-pattern>-->
+<!--    </servlet-mapping>-->
+
+<!--    <servlet>-->
+<!--        <servlet-name>DeleteMemberServlet</servlet-name>-->
+<!--        <servlet-class>com.gym.DeleteMemberServlet</servlet-class>-->
+<!--    </servlet>-->
+<!--    <servlet-mapping>-->
+<!--        <servlet-name>DeleteMemberServlet</servlet-name>-->
+<!--        <url-pattern>/delete</url-pattern>-->
+<!--    </servlet-mapping>-->
+
+    <welcome-file-list>
+        <welcome-file>view.jsp</welcome-file>
+    </welcome-file-list>
 </web-app>
